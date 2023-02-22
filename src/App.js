@@ -90,7 +90,7 @@ var movieGenre = {
 };
 var genres = Object.keys(movieGenre);
 export default function App() {
-  var [genreItem, setItem] = useState([]);
+  var [genreItem, setItem] = useState("Rom-Com");
 
   function listItemClickHandler(item) {
     setItem(item);
@@ -127,6 +127,7 @@ export default function App() {
         <ul>
           {movies?.map((moviesKey) => (
             <li key={moviesKey.name} className="movie-list-item">
+              {" "}
               <div style={{ fontSize: "larger" }}>{moviesKey.name}</div>
               <div>{moviesKey.rating}</div>
             </li>
