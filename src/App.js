@@ -44,9 +44,9 @@ var movieGenre = {
     { name: " X (II) (2022)", rating: "6.6" },
     { name: "Smile (V) (2022)", rating: "6.6" },
     { name: "Pearl (2022)", rating: "7.0" }
-  ],
+  ]
 
-  Action: [
+  /*Action: [
     { name: "Teen Wolf: The Movie (2023)", rating: "5.6" },
     { name: "Top Gun (1986)", rating: "6.9" },
     { name: "Plane (2023)", rating: "6.5" },
@@ -86,7 +86,7 @@ var movieGenre = {
     { name: "Fire of Love (2022)", rating: "7.6" },
     { name: "Bill Russell: Legend (2023)", rating: "8.0" },
     { name: "Navalny (2022)", rating: "7.7" }
-  ]
+  ]*/
 };
 var genres = Object.keys(movieGenre);
 export default function App() {
